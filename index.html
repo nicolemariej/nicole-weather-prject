@@ -4,82 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nicole's weather app</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <title>Nicole's weather app</title>
   </head>
   <body>
     <div class="container">
-      <header>Nicole's Weather 👩🏽</header>
-      <img
-        src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-        alt="sunshine"
-      />
-      <span>21° c|f</span>
-      <div class="row">
-        <div class="col-6">09:00</div>
+      <div class="weather-app">
+        <header>Nicole's Weather Forecast</header>
+        <div class="weather-card">
+          <div id="current-weather">
+            <img
+              id="current-weather-image"
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="sunshine"
+            />
+            <span id="current-temperature">21°</span> <a href="#">c</a>|<a
+              href="#"
+              >f</a
+            >
+          </div>
+          <div class="row">
+            <div class="col-6" id="current-day">
+              <span> Thursday </span><br /><span id="current-time">09:00</span>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>London</li>
+                <li>Wind = 2kmph</li>
+                <li>Humidity = 0%</li>
+              </ul>
+            </div>
+          </div>
 
-        <div class="col-6">
-          <ul>
-            <li>London</li>
-            <li>Wind = 2kmph</li>
-            <li>Humidity = 0%</li>
-          </ul>
+          <div class="row weekdays">
+            <div class="col-2">
+              Mon
+              <br />
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="partly cloudy"
+              />
+            </div>
+            <div class="col-2">
+              Tues
+              <br />
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="partly cloudy"
+              />
+            </div>
+            <div class="col-2">
+              Wed
+              <br />
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="partly cloudy"
+              />
+            </div>
+            <div class="col-2">
+              Thu
+              <br />
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="partly cloudy"
+              />
+            </div>
+            <div class="col-2">
+              Fri
+              <br />
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="partly cloudy"
+              />
+            </div>
+          </div>
         </div>
+        <footer>
+          This code was created by Nicole Jones, view on
+          <a href="https://github.com/nicolemariej?tab=repositories"
+            >Open Source Code</a
+          >
+        </footer>
       </div>
-
-      <div class="row">
-        <div class="col-2">
-          Mon
-          <br />
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="partly cloudy"
-          />
-        </div>
-        <div class="col-2">
-          Tues
-          <br />
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="partly cloudy"
-          />
-        </div>
-        <div class="col-2">
-          Wed
-          <br />
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="partly cloudy"
-          />
-        </div>
-        <div class="col-2">
-          Thu
-          <br />
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="partly cloudy"
-          />
-        </div>
-        <div class="col-2">
-          Fri
-          <br />
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="partly cloudy"
-          />
-        </div>
-      </div>
-      <footer>
-        This code was created by Nicole Jones, view on
-        <a href="https://github.com/nicolemariej?tab=repositories"
-          >Open Source Code</a
-        >
-      </footer>
     </div>
   </body>
 </html>
