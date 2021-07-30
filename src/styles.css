@@ -61,15 +61,11 @@ a {
   font-size: 20px;
 }
 
-.weekdays {
-  font-size: 14px;
-}
-
 #city {
   font-size: 35px;
 }
 
-#description::first-letter {
+#description:first-letter {
   text-transform: capitalize;
 }
 
@@ -92,4 +88,13 @@ a {
 #current-weather .active {
   color: black;
   cursor: default;
+}
+
+.weather-forecast {
+  font-size: 14px;
+  padding: 0px 10px 10px 10px;
+}
+
+.forcast-max {
+  font-weight: bold;
 }
