@@ -22,6 +22,7 @@ footer {
 li {
   list-style: none;
   color: rgb(43, 43, 43);
+  text-transform: capitalize;
 }
 
 a {
@@ -62,4 +63,12 @@ a {
 
 .weekdays {
   font-size: 14px;
+}
+
+#city {
+  font-size: 35px;
+}
+
+#description {
+  text-transform: capitalize;
 }

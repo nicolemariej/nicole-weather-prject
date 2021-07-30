@@ -10,6 +10,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="src/styles.css" />
 
     <title>Nicole's weather app</title>
@@ -25,20 +27,24 @@
               src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
               alt="sunshine"
             />
-            <span id="current-temperature">21°</span> <a href="#">c</a>|<a
+            <span id="current-temperature">21°</span> <a href="#">C </a>|<a
               href="#"
-              >f</a
+            >
+              F</a
             >
           </div>
           <div class="row">
-            <div class="col-6" id="current-day">
-              <span> Thursday </span><br /><span id="current-time">09:00</span>
+            <div class="col-6">
+              <span id="city"> Madrid</span><br /><span id="current-time"
+                >09:00</span
+              >
+              <div id="description">Clear Sky</div>
             </div>
             <div class="col-6">
               <ul>
-                <li>London</li>
-                <li>Wind = 2kmph</li>
-                <li>Humidity = 0%</li>
+                <li id="current-day">Tuesday</li>
+                <li>Wind: <span id="wind">1</span> kmph</li>
+                <li>Humidity: <span id="humidity">0</span>%</li>
               </ul>
             </div>
           </div>
@@ -94,5 +100,6 @@
         </footer>
       </div>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
