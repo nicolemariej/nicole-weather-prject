@@ -88,3 +88,8 @@ a {
   border-radius: 18px;
   border: black solid 1px;
 }
+
+#current-weather .active {
+  color: black;
+  cursor: default;
+}
