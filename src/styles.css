@@ -69,6 +69,6 @@ a {
   font-size: 35px;
 }
 
-#description {
+#description::first-letter {
   text-transform: capitalize;
 }
