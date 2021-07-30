@@ -44,7 +44,7 @@ a {
 
 #current-weather {
   text-align: left;
-  padding: 30px 30px 0px 50px;
+  padding: 0px 30px 0px 50px;
 }
 
 #current-temperature {
@@ -71,4 +71,20 @@ a {
 
 #description::first-letter {
   text-transform: capitalize;
+}
+
+#search-form {
+  padding-top: 10px;
+
+  padding-left: 180px;
+}
+
+#city-input {
+  border-radius: 18px;
+  padding: 5px 0px 5px 10px;
+}
+
+.btn {
+  border-radius: 18px;
+  border: black solid 1px;
 }

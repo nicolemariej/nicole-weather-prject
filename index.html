@@ -21,6 +21,15 @@
       <div class="weather-app">
         <header>Nicole's Weather Forecast</header>
         <div class="weather-card">
+          <form id="search-form">
+            <input
+              type="search"
+              placeholder="Enter city here..."
+              id="city-input"
+              autocomplete="off"
+            />
+            <input type="submit" value="Search" class="btn btn-primary" />
+          </form>
           <div id="current-weather">
             <img id="current-weather-image" src="" alt="sunshine" />
             <span id="current-temperature">21°</span> <a href="#">C </a>|<a
