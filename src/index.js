@@ -45,13 +45,13 @@ function displayForecast(response) {
         forecastHTML +
         `  
             <div class="col-2">
-              ${formatDay(forecastDay.dt)}
-              <br />
-              <img
+              <div class = "forecast-day">${formatDay(forecastDay.dt)}
+              </div>
+              <img class = "forecast-image"
                 src="http://openweathermap.org/img/wn/${
                   forecastDay.weather[0].icon
                 }@2x.png"
-                alt="partly cloudy"
+               
               />
               <div class="forcast-temperature">
                 <span class="forcast-max">${Math.round(

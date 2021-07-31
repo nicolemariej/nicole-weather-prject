@@ -99,9 +99,12 @@ a {
 .forcast-max {
   font-weight: bold;
 }
-.weather-forecast img {
+
+.forecast-image {
+  float: left;
+  width: 70px;
 }
 
-#current-weather-image {
-  width: 100px;
+.main-image {
+  width: 140px;
 }
