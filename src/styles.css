@@ -35,6 +35,7 @@ a {
   border-radius: 30px;
   margin: 50px auto;
   text-align: center;
+  box-shadow: 10px 10px 20px rgb(0 0 0 / 20%);
 }
 
 .weather-card {
@@ -97,4 +98,10 @@ a {
 
 .forcast-max {
   font-weight: bold;
+}
+.weather-forecast img {
+}
+
+#current-weather-image {
+  width: 100px;
 }
